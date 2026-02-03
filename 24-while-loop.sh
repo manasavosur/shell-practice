@@ -10,6 +10,16 @@ do
   ((count++)) 
 done
 
+# output of abovr while loop - ( acts as a timer)
+
+# Count is 1
+# Count is 2
+# Count is 3
+# Count is 4
+# Count is 5
+
+# this is second while loop & IFS = Internal Field Separator to separate line by line
+
 # while IFS= read -r line; do
 #   # Process each line here
 #   echo "$line"
